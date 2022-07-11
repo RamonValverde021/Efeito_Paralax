@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Jurasic_Park";
+    src: url("media/jurassic_park.ttf");
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.conteudo {
+    width: 100%;
+    background: url("media/fundo.jpg") no-repeat center;
+    background-size: cover;
+    padding: 2%;
+    box-sizing: border-box; /* Com isso não é preciso diminuir a width para adequar o padding */
+}
+
+.conteudo h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  bold;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+
+.conteudo p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:  600;
+    font-size: 14pt;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-indent: 2em;
+}
+
+.imagens {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens span {
+    font-family: "Jurasic_Park", sans-serif;
+    font-size: 100pt;
+    color: #F8D340;
+    text-shadow: 5px 5px 5px #EB0B0B;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#imagem01 {
+    background: url("media/Triássico.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+#imagem02 {
+    background: url("media/Jurássico.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+#imagem03 {
+    background: url("media/Cretássico.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+#imagem04 {
+    background: url("media/terra.jpg") no-repeat fixed center;
+    background-size: cover;
+}
